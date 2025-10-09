@@ -45,6 +45,12 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    // Fixes crash:
+    // Unable to find method "java.lang.String com.squareup.javapoet.ClassName.canonicalName()"
+    hilt {
+        enableAggregatingTask = false
+    }
 }
 
 dependencies {
