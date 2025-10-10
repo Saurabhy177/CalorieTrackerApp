@@ -1,4 +1,4 @@
-package com.example.onboarding_presentation.welcome.components
+package com.example.onboarding_presentation.components
 
 import LocalSpacing
 import androidx.compose.foundation.layout.padding

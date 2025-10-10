@@ -17,7 +17,7 @@ import androidx.compose.ui.text.style.TextAlign
 import com.example.core.R
 import com.example.core.navigation.Route
 import com.example.core.util.UiEvent
-import com.example.onboarding_presentation.welcome.components.ActionButton
+import com.example.onboarding_presentation.components.ActionButton
 
 @Composable
 fun WelcomeScreen(
@@ -41,7 +41,7 @@ fun WelcomeScreen(
 
         ActionButton(
             text = stringResource(id = R.string.next),
-            onClick = { onNavigate(UiEvent.Navigate(Route.AGE)) },
+            onClick = { onNavigate(UiEvent.Navigate(Route.GENDER)) },
             modifier = Modifier.align(Alignment.CenterHorizontally)
         )
     }
