@@ -1,6 +1,6 @@
 package com.example.tracker_presentation.tracker_overview.components
 
-import LocalSpacing
+import com.example.core_ui.LocalSpacing
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable

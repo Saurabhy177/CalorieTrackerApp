@@ -1,6 +1,6 @@
 package com.example.tracker_presentation.tracker_overview
 
-import LocalSpacing
+import com.example.core_ui.LocalSpacing
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize

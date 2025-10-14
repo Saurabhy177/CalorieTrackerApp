@@ -1,6 +1,6 @@
 package com.example.onboarding_presentation.welcome
 
-import LocalSpacing
+import com.example.core_ui.LocalSpacing
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer

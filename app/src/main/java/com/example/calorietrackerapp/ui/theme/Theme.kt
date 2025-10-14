@@ -1,7 +1,7 @@
 package com.example.calorietrackerapp.ui.theme
 
-import Dimensions
-import LocalSpacing
+import com.example.core_ui.Dimensions
+import com.example.core_ui.LocalSpacing
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors

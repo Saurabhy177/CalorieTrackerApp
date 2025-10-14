@@ -1,6 +1,6 @@
 package com.example.onboarding_presentation.components
 
-import LocalSpacing
+import com.example.core_ui.LocalSpacing
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Button
