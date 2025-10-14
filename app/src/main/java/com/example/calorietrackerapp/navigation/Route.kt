@@ -1,4 +1,4 @@
-package com.example.core.navigation
+package com.example.calorietrackerapp.navigation
 
 object Route {
 
