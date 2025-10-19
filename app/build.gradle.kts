@@ -16,7 +16,7 @@ android {
         versionCode = ProjectConfig.versionCode
         versionName = ProjectConfig.versionName
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.example.calorietrackerapp.HiltTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
@@ -43,6 +43,8 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            excludes += "META-INF/LICENSE.md"
+            excludes += "META-INF/LICENSE-notice.md"
         }
     }
 
@@ -66,6 +68,8 @@ dependencies {
 
     implementation(DaggerHilt.hiltAndroid)
     kapt(DaggerHilt.hiltCompiler)
+
+    implementation(Kotlin.kotlinDateTime)
 
     implementation(project(Modules.core))
     implementation(project(Modules.coreUi))
